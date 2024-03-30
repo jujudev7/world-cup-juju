@@ -1,3 +1,12 @@
 h1 {
   color: #0561ff;
 }
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+}
