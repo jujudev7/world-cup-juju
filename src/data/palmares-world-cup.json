@@ -1,0 +1,201 @@
+[
+    {
+      "id": 1,
+      "Edition": "1ère",
+      "Année": "1930",
+      "Vainqueur": "Uruguay",
+      "Score": "4 - 2",
+      "Finaliste": "Argentine",
+      "Troisième": "États-Unis"
+    },
+    {
+      "id": 2,
+      "Edition": "2e",
+      "Année": "1934",
+      "Vainqueur": "Italie",
+      "Score": "2 - 1 (ap)",
+      "Finaliste": "Tchécoslovaquie",
+      "Troisième": "Allemagne"
+    },
+    {
+      "id": 3,
+      "Edition": "3e",
+      "Année": "1938",
+      "Vainqueur": "Italie",
+      "Score": "4 - 2",
+      "Finaliste": "Hongrie",
+      "Troisième": "Brésil"
+    },
+    {
+      "id": 4,
+      "Edition": "4e",
+      "Année": "1950",
+      "Vainqueur": "Uruguay",
+      "Score": "2 - 1",
+      "Finaliste": "Brésil",
+      "Troisième": "Suède"
+    },
+    {
+      "id": 5,
+      "Edition": "5e",
+      "Année": "1954",
+      "Vainqueur": "Allemagne de l'Ouest",
+      "Score": "3 - 2",
+      "Finaliste": "Hongrie",
+      "Troisième": "Autriche"
+    },
+    {
+      "id": 6,
+      "Edition": "6e",
+      "Année": "1958",
+      "Vainqueur": "Brésil",
+      "Score": "5 - 2",
+      "Finaliste": "Suède",
+      "Troisième": "France"
+    },
+    {
+      "id": 7,
+      "Edition": "7e",
+      "Année": "1962",
+      "Vainqueur": "Brésil",
+      "Score": "3 - 1",
+      "Finaliste": "Tchécoslovaquie",
+      "Troisième": "Chili"
+    },
+    {
+      "id": 8,
+      "Edition": "8e",
+      "Année": "1966",
+      "Vainqueur": "Angleterre",
+      "Score": "4 - 2 (ap)",
+      "Finaliste": "Allemagne de l'Ouest",
+      "Troisième": "Portugal"
+    },
+    {
+      "id": 9,
+      "Edition": "9e",
+      "Année": "1970",
+      "Vainqueur": "Brésil",
+      "Score": "4 - 1",
+      "Finaliste": "Italie",
+      "Troisième": "Allemagne de l'Ouest"
+    },
+    {
+      "id": 10,
+      "Edition": "10e",
+      "Année": "1974",
+      "Vainqueur": "Allemagne de l'Ouest",
+      "Score": "2 - 1",
+      "Finaliste": "Pays-Bas",
+      "Troisième": "Pologne"
+    },
+    {
+      "id": 11,
+      "Edition": "11e",
+      "Année": "1978",
+      "Vainqueur": "Argentine",
+      "Score": "3 - 1 (ap)",
+      "Finaliste": "Pays-Bas",
+      "Troisième": "Brésil"
+    },
+    {
+      "id": 12,
+      "Edition": "12e",
+      "Année": "1982",
+      "Vainqueur": "Italie",
+      "Score": "3 - 1",
+      "Finaliste": "Allemagne de l'Ouest",
+      "Troisième": "Pologne"
+    },
+    {
+      "id": 13,
+      "Edition": "13e",
+      "Année": "1986",
+      "Vainqueur": "Argentine",
+      "Score": "3 - 2",
+      "Finaliste": "Allemagne de l'Ouest",
+      "Troisième": "France"
+    },
+    {
+      "id": 14,
+      "Edition": "14e",
+      "Année": "1990",
+      "Vainqueur": "Allemagne de l'Ouest",
+      "Score": "1 - 0",
+      "Finaliste": "Argentine",
+      "Troisième": "Italie"
+    },
+    {
+      "id": 15,
+      "Edition": "15e",
+      "Année": "1994",
+      "Vainqueur": "Brésil",
+      "Score": "0 - 0 (3-2)",
+      "Finaliste": "Italie",
+      "Troisième": "Suède"
+    },
+    {
+      "id": 16,
+      "Edition": "16e",
+      "Année": "1998",
+      "Vainqueur": "France",
+      "Score": "3 - 0",
+      "Finaliste": "Brésil",
+      "Troisième": "Croatie"
+    },
+    {
+      "id": 17,
+      "Edition": "17e",
+      "Année": "2002",
+      "Vainqueur": "Brésil",
+      "Score": "2 - 0",
+      "Finaliste": "Allemagne",
+      "Troisième": "Turquie"
+    },
+    {
+      "id": 18,
+      "Edition": "18e",
+      "Année": "2006",
+      "Vainqueur": "Italie",
+      "Score": "1 - 1 (5-3)",
+      "Finaliste": "France",
+      "Troisième": "Allemagne"
+    },
+    {
+      "id": 19,
+      "Edition": "19e",
+      "Année": "2010",
+      "Vainqueur": "Espagne",
+      "Score": "1 - 0 (ap)",
+      "Finaliste": "Pays-Bas",
+      "Troisième": "Allemagne"
+    },
+    {
+      "id": 20,
+      "Edition": "20e",
+      "Année": "2014",
+      "Vainqueur": "Allemagne",
+      "Score": "1 - 0 (ap)",
+      "Finaliste": "Argentine",
+      "Troisième": "Pays-Bas"
+    },
+    {
+      "id": 21,
+      "Edition": "21e",
+      "Année": "2018",
+      "Vainqueur": "France",
+      "Score": "4 - 2",
+      "Finaliste": "Croatie",
+      "Troisième": "Belgique"
+    },
+    {
+      "id": 22,
+      "Edition": "22e",
+      "Année": "2022",
+      "Vainqueur": "Argentine",
+      "Score": "3 - 3 (4-2)",
+      "Finaliste": "France",
+      "Troisième": "Croatie"
+    }
+  ]
+  
