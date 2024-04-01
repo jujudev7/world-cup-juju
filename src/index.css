@@ -52,10 +52,15 @@ li {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 0.9em;
+  z-index: 10;
 }
 
-.main {
-  margin: 0 40px;
+.navbar a:hover {
+  color: #00FF7F;
+}
+
+main {
+  margin: 40px;
   text-align: center;
 }
 
@@ -65,7 +70,7 @@ h1 {
 
 table {
   margin: 0 auto;
-  width: 60%;
+  max-width: 95%;
   border-collapse: collapse;
   margin-bottom: 80px;
 }
@@ -73,11 +78,12 @@ table {
 th,
 td {
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 th {
   background-color: #f2f2f2;
+  color:#7f00ff;
 }
 
 tr:nth-child(even) {
@@ -86,6 +92,10 @@ tr:nth-child(even) {
 
 tr:hover {
   background-color: #ddd;
+}
+
+.year {
+  font-weight: bold;
 }
 
 .winner {

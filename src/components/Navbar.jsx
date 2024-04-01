@@ -9,17 +9,17 @@ function Navbar() {
         <Link to="/" className="navbar-brand">Accueil</Link>
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to="/historique" className="nav-link">CM 2026</Link>
+            {/* <Link to="/cm2026" className="nav-link">CM 2026</Link> */}
           </li>
           <li className="nav-item">
-            <Link to="/cm2026" className="nav-link">Historique</Link>
+            <Link to="/historique" className="nav-link">Historique</Link>
             <ul className="sub-categories">
-              <li><Link to="/cm2026/moments-emblématiques">Éditions précédentes</Link></li>
-              <li><Link to="/cm2026/palmares">Palmarès</Link></li>
-              <li><Link to="/cm2026/moments-emblématiques">Moments emblématiques</Link></li>
+              {/* <li><Link to="/historique/editions-precedentes">Éditions précédentes</Link></li> */}
+              <li><Link to="/historique/palmares">Palmarès</Link></li>
+              {/* <li><Link to="/historique/moments-emblématiques">Moments emblématiques</Link></li> */}
             </ul>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/equipes" className="nav-link">Équipes</Link>
           </li>
           <li className="nav-item">
@@ -39,7 +39,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/xxxxxxxxx" className="nav-link">Xxxxxxxxxx</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

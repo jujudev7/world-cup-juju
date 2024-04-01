@@ -1,10 +1,12 @@
+// Palmares.jsx
 import React from 'react';
 import palmaresData from '../data/palmares-world-cup.json';
+import countryCodes from '../data/countries-codes.json'; // Importez le fichier JSON des codes de pays
 import ReactCountryFlag from "react-country-flag"
 
 function Palmares() {
   return (
-    <div>
+    <div className="palmares">
       <h1>Palmarès de la Coupe du monde de football</h1>
       <table>
         <thead>
@@ -21,10 +23,10 @@ function Palmares() {
           {palmaresData.map((item) => (
             <tr key={item.id}>
               <td>{item.Edition}</td>
-              <td>{item.Année}</td>
+              <td className="year">{item.Année}</td>
               <td>
                 <ReactCountryFlag
-                  countryCode={item.VainqueurCode}
+                  countryCode={countryCodes.countryCode[item.Vainqueur]}
                   svg
                   style={{
                     width: '1em',
@@ -38,7 +40,7 @@ function Palmares() {
               <td>{item.Score}</td>
               <td>
                 <ReactCountryFlag
-                  countryCode={item.FinalisteCode}
+                  countryCode={countryCodes.countryCode[item.Finaliste]}
                   svg
                   style={{
                     width: '1em',
@@ -51,7 +53,7 @@ function Palmares() {
               </td>
               <td>
                 <ReactCountryFlag
-                  countryCode={item.TroisièmeCode}
+                  countryCode={countryCodes.countryCode[item.Troisième]}
                   svg
                   style={{
                     width: '1em',
