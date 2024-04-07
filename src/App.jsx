@@ -6,6 +6,7 @@ import Home from './components/Home';
 // import Contact from './components/Contact';
 import Historique from './components/Historique';
 import Palmares from './components/Palmares';
+import TopScorers from './components/TopScorers';
 
 function App() {
   return (
@@ -13,13 +14,14 @@ function App() {
       <div>
         <Navbar />
         <main>
-        <Routes>
-          <Route path="/historique" element={<Historique />} />
-          <Route path="/historique/palmares" element={<Palmares />} />
-          <Route path="/" element={<Home />} />
-        {/* <Route path="/about" component={About} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/historique" element={<Historique />} />
+            <Route path="/historique/palmares" element={<Palmares />} />
+            <Route path="/historique/meilleurs-buteurs" element={<TopScorers />} />
+            {/* <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} /> */}
-        </Routes>
+          </Routes>
         </main>
       </div>
     </Router>

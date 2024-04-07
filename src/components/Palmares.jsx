@@ -1,12 +1,12 @@
 // Palmares.jsx
 import React from 'react';
 import palmaresData from '../data/palmares-world-cup.json';
-import countryCodes from '../data/countries-codes.json'; // Importez le fichier JSON des codes de pays
+import countryCodes from '../data/countries-codes.json';
 import ReactCountryFlag from "react-country-flag"
 
 function Palmares() {
   return (
-    <div className="palmares">
+    <div>
       <h1>Palmarès de la Coupe du monde de football</h1>
       <table>
         <thead>
