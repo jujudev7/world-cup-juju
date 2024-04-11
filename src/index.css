@@ -1,13 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* font-family: "Roboto", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); /* font-family: "Roboto", sans-serif; */
 /* font-family: "Poppins", sans-serif; */
 /* font-family: "Roboto", sans-serif; */
-/* font-family: "Oswald", sans-serif; */
 
 body {
   margin: 0;
   padding: 0;
   color: #010101;
   font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  color:#7f00ff;
+  font-family: "Poppins", sans-serif;
 }
 
 .container-navbar {
@@ -50,7 +58,7 @@ body {
 }
 
 .dropdown-menu a {
-  color: #00FF7F;
+  color: #00ff7f;
 }
 
 .dropdown-menu li:hover {
@@ -94,7 +102,7 @@ li {
 }
 
 .navbar a:hover {
-  color: #00FF7F;
+  color: #00ff7f;
 }
 
 main {
@@ -102,9 +110,7 @@ main {
   text-align: center;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
-}
+
 
 table {
   margin: 0 auto;
@@ -121,7 +127,7 @@ td {
 
 th {
   background-color: #f2f2f2;
-  color:#7f00ff;
+  color: #7f00ff;
 }
 
 tr:nth-child(even) {
@@ -144,10 +150,33 @@ tr:hover {
 .container-topscorers {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 ul.legend {
   display: flex;
   justify-content: center;
   margin-top: 20px; /* Ajouter une marge en haut de la liste */
+}
+
+
+
+.top3-scorers {
+  /* display: flex; */
+  /* justify-content: center; Centrage horizontal */
+  /* align-items: flex-start; Aligner le contenu en haut */
+  margin: 0px auto;
+  text-align: left;
+  font-size: 1.2em;
+  width: 66.67%;
+}
+
+img[alt="Miroslav Klose"] {
+  width: 340px;
+  float: right;
+  /* margin-top: -80px; */
+}
+
+.text-klose {
+  margin-right: 20px;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import topscorersData from '../data/top-scorers.json';
 import countryCodes from '../data/countries-codes.json';
 import ReactCountryFlag from "react-country-flag";
+import imgKlose from '/assets/images/joueurs/klose-miroslav.png';
 
 const WorldCupTopScorers = () => {
     return (
@@ -51,6 +52,35 @@ const WorldCupTopScorers = () => {
                     <li><strong>Nombre en gras</strong>, les joueurs finissant meilleur buteur de l'édition</li>
                 </ul>
             </div>
+
+            <div className="top3-scorers">
+                <div className="text-klose">
+
+                    <img
+                        src={imgKlose}
+                        alt="Miroslav Klose"
+                        style={{
+                            shapeOutside: `url(${imgKlose})`,
+                            shapeImageThreshold: '0.5',
+                        }}
+                    />
+                    <h2>L'affaire est Klose...</h2>
+
+                    <p>
+                        Né en Pologne (à Opole), le 9 juin 1978, <strong>Miroslav Klose</strong> est un joueur emblématique du football allemand et international. L'attaquant germano-polonais a participé à 4 Coupes du monde avec la <i>Nationalmannschaft</i> dans lesquelles il a brillé, au point de devenir le meilleur buteur de l'Histoire de la plus grande compétition de football.
+                    </p>
+                    <p>
+                        <strong>Coupe du Monde 2002 :</strong> Klose marque 5 buts en 7 matchs, permettant à l'Allemagne d'atteindre la finale, où elle s'inclinée face au Brésil (0-2).</p>
+                    <p>
+                        <strong>Coupe du Monde 2006 :</strong> Klose inscrit à nouveau 5 buts en 7 matchs, contribuant à la 3ème place de l'Allemagne dans "son" Mondial.</p><p>
+                        <strong>Coupe du Monde 2010 :</strong> Klose marque 4 buts en 6 matchs, et l'Allemagne termine encore sur le podium (3ème).</p><p>
+                        <strong>Coupe du Monde 2014 :</strong> Klose signe 2 buts en 7 matchs, le dernier en demi-finale contre le Brésil lors du fameux 7-1 ! Un but qui lui permet de dépasser Ronaldo et ainsi devenir le recordman de buts en Coupe du Monde.</p><p> Un record fêté avec le sacre planétaire de l'Allemagne quelques jours plus tard contre l'Argentine (1-0 a.p.). Klose ne pouvait rêver plus belle manière de clôturer son immense carrière internationale.
+                    </p>
+                </div>
+            </div>
+
+            {/* <p style={{ display: "flex", alignItems: "center" }}><img src={imgKlose} alt="Miroslav Klose" />Né en Pologne (à Opole), le 9 juin 1978, Miroslav Klose est un joueur emblématique du football allemand et international. L'attaquant germano-polonais a participé à 4 Coupes du monde avec la <i>Nationalmannschaft</i> dans lesquelles il a brillé, au point de devenir le meilleur buteur de l'Histoire de la plus grande compétition de football.</p> */}
+
         </div>
     );
 }
