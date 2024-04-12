@@ -1,7 +1,7 @@
 [
     {
       "Rang": 1,
-      "Joueur": "Miroslav Klose",
+      "Name": "Miroslav Klose",
       "Team": "Allemagne",
       "DetailByEdition": "2002 (5), 2006 (5), 2010 (4), 2014 (2)",
       "Matchs": 24,
@@ -10,7 +10,7 @@
     },
     {
       "Rang": 2,
-      "Joueur": "Ronaldo",
+      "Name": "Ronaldo",
       "Team": "Brésil",
       "DetailByEdition": "1994 (0),1998 (4), 2002 (8), 2006 (3)",
       "Matchs": 19,
@@ -19,7 +19,7 @@
     },
     {
       "Rang": 3,
-      "Joueur": "Gerd Müller",
+      "Name": "Gerd Müller",
       "Team": "Allemagne",
       "DetailByEdition": "1970 (10), 1974 (4)",
       "Matchs": 13,
@@ -28,7 +28,7 @@
     },
     {
       "Rang": 4,
-      "Joueur": "Just Fontaine",
+      "Name": "Just Fontaine",
       "Team": "France",
       "DetailByEdition": "1958 (13)",
       "Matchs": 6,
@@ -37,7 +37,7 @@
     },
     {
       "Rang": 4,
-      "Joueur": "Lionel Messi",
+      "Name": "Lionel Messi",
       "Team": "Argentine",
       "DetailByEdition": "2006 (1), 2010 (0), 2014 (4), 2018 (1), 2022 (7)",
       "Matchs": 26,
@@ -46,7 +46,7 @@
     },
     {
       "Rang": 6,
-      "Joueur": "Pelé",
+      "Name": "Pelé",
       "Team": "Brésil",
       "DetailByEdition": "1958 (6), 1962 (1), 1966 (1), 1970 (4)",
       "Matchs": 14,
@@ -55,7 +55,7 @@
     },
     {
       "Rang": 6,
-      "Joueur": "Kylian Mbappé",
+      "Name": "Kylian Mbappé",
       "Team": "France",
       "DetailByEdition": "2018 (4), 2022 (8)",
       "Matchs": 14,
@@ -64,7 +64,7 @@
     },
     {
       "Rang": 8,
-      "Joueur": "Sándor Kocsis",
+      "Name": "Sándor Kocsis",
       "Team": "Hongrie",
       "DetailByEdition": "1954 (11)",
       "Matchs": 5,
@@ -73,7 +73,7 @@
     },
     {
       "Rang": 8,
-      "Joueur": "Jürgen Klinsmann",
+      "Name": "Jürgen Klinsmann",
       "Team": "Allemagne",
       "DetailByEdition": "1990 (3), 1994 (5), 1998 (3)",
       "Matchs": 17,
@@ -82,7 +82,7 @@
     },
     {
       "Rang": 10,
-      "Joueur": "Helmut Rahn",
+      "Name": "Helmut Rahn",
       "Team": "Allemagne",
       "DetailByEdition": "1954 (4), 1958 (6)",
       "Matchs": 10,
@@ -91,7 +91,7 @@
     },
     {
       "Rang": 10,
-      "Joueur": "Gary Lineker",
+      "Name": "Gary Lineker",
       "Team": "Angleterre",
       "DetailByEdition": "1986 (6), 1990 (4)",
       "Matchs": 12,
@@ -100,7 +100,7 @@
     },
     {
       "Rang": 10,
-      "Joueur": "Gabriel Batistuta",
+      "Name": "Gabriel Batistuta",
       "Team": "Argentine",
       "DetailByEdition": "1994 (4), 1998 (5), 2002 (1)",
       "Matchs": 12,
@@ -109,7 +109,7 @@
     },
     {
       "Rang": 10,
-      "Joueur": "Teófilo Cubillas",
+      "Name": "Teófilo Cubillas",
       "Team": "Pérou",
       "DetailByEdition": "1970 (5), 1978 (5), 1982 (0)",
       "Matchs": 13,
@@ -118,7 +118,7 @@
     },
     {
       "Rang": 10,
-      "Joueur": "Thomas Müller",
+      "Name": "Thomas Müller",
       "Team": "Allemagne",
       "DetailByEdition": "2010 (5), 2014 (5), 2018 (0), 2022 (0)",
       "Matchs": 19,
@@ -127,7 +127,7 @@
     },
     {
       "Rang": 10,
-      "Joueur": "Grzegorz Lato",
+      "Name": "Grzegorz Lato",
       "Team": "Pologne",
       "DetailByEdition": "1974 (7), 1978 (2), 1982 (1)",
       "Matchs": 20,

@@ -11,6 +11,7 @@ body {
 
 h1 {
   font-family: "Poppins", sans-serif;
+  font-size: 2.2em;
 }
 
 h2 {
@@ -168,15 +169,27 @@ ul.legend {
   margin: 0px auto;
   text-align: left;
   font-size: 1.2em;
-  width: 66.67%;
+  width: 60%;
 }
 
 img[alt="Miroslav Klose"] {
   width: 340px;
   float: right;
-  /* margin-top: -80px; */
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .text-klose {
-  margin-right: 20px;
+  overflow: hidden;
+}
+
+table a,
+table a:visited {
+  text-decoration: none !important;
+  color: #010101;
+}
+
+table a:hover{
+  color:#7f00ff;
+
 }
