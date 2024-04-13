@@ -3,7 +3,7 @@ import topscorersData from '../data/top-scorers.json';
 import countryCodes from '../data/countries-codes.json';
 import ReactCountryFlag from "react-country-flag";
 import imgKlose from '/assets/images/players/klose-miroslav.png';
-
+import imgMbappe from '/assets/images/players/mbappe-kylian.png';
 const WorldCupTopScorers = () => {
     return (
         <div>
@@ -30,10 +30,15 @@ const WorldCupTopScorers = () => {
                                         <a href="#miroslav-klose-details">
                                             <strong>{player.Name}</strong>
                                         </a>
+                                    ) : player.Name === "Kylian Mbappé" ? (
+                                        <a href="#kylian-mbappe-details">
+                                            <strong>{player.Name}</strong>
+                                        </a>
                                     ) : (
                                         <strong>{player.Name}</strong>
                                     )}
                                 </td>
+
                                 <td><ReactCountryFlag
                                     countryCode={countryCodes.countryCode[player.Team]}
                                     svg
@@ -56,8 +61,8 @@ const WorldCupTopScorers = () => {
                 </table>
                 <ul className="legend">
                     <li><strong>*</strong> Allemagne de l'Ouest</li>
-                    <li><strong>Année en gras</strong>, les Names vainqueurs de l'édition</li>
-                    <li><strong>Nombre en gras</strong>, les Names finissant meilleur buteur de l'édition</li>
+                    <li><strong>Année en gras</strong>, les joueurs vainqueurs de l'édition</li>
+                    <li><strong>Nombre en gras</strong>, les joueurs finissant meilleur buteur de l'édition</li>
                 </ul>
             </div>
 
@@ -73,10 +78,10 @@ const WorldCupTopScorers = () => {
                             shapeMargin: '10px'
                         }}
                     />
-                    <h2>L'affaire est Klose...</h2>
+                    <h2>L'affaire est Klose</h2>
 
                     <p>
-                        Né en Pologne (à Opole), le 9 juin 1978, <span id="miroslav-klose-details"><strong>Miroslav Klose</strong></span> est un Name emblématique du football allemand et international. L'attaquant germano-polonais a participé à 4 Coupes du monde avec la <i>Nationalmannschaft</i> dans lesquelles il a particulièrement brillé, au point de devenir le meilleur buteur de l'Histoire de la plus grande compétition de football.
+                        Né en Pologne (à Opole), le 9 juin 1978, <span id="miroslav-klose-details"><strong>Miroslav Klose</strong></span> est un joueur emblématique du football allemand et international. L'attaquant germano-polonais a participé à 4 Coupes du monde avec la <i>Nationalmannschaft</i> dans lesquelles il a particulièrement brillé, au point de devenir le meilleur buteur de l'Histoire de la plus grande compétition de football.
                     </p>
                     <p>
                         <strong>Coupe du Monde 2002 :</strong> Klose marque 5 buts en 7 matchs, permettant à l'Allemagne d'atteindre la finale, où elle s'incline face au Brésil (0-2).</p>
@@ -88,7 +93,19 @@ const WorldCupTopScorers = () => {
                         <strong>Coupe du Monde 2014 :</strong> Klose signe 2 buts en 7 matchs, le dernier en demi-finale contre le Brésil lors du fameux 7-1 ! Un but qui lui permet de dépasser Ronaldo et ainsi devenir le recordman de buts en Coupe du Monde avec un total de 16 réalisations.</p>
                     <p> Un record fêté avec le sacre planétaire de l'Allemagne quelques jours plus tard contre l'Argentine (1-0 a.p.). Klose ne pouvait rêver plus belle manière de clôturer son immense carrière internationale.
                     </p>
-                </div>
+                    <h3>pour le moment...</h3>
+                    <img
+                        src={imgMbappe}
+                        alt="Kylian Mbappé"
+                        style={{
+                            shapeOutside: `url(${imgMbappe})`,
+                            shapeImageThreshold: '0.5',
+                            shapeMargin: '20px'
+                        }}
+                    />
+                    <p>
+                        Mais avec déjà 12 buts en 2 éditions à seulement 24 ans,  <span id="kylian-mbappe-details"><strong>Kylian Mbappé</strong></span> pourrait menacer le record de Klose. Le natif de Bondy (93) fut l’un des grands artisans des brillants parcours des Bleus en Russie en 2018 et au Qatar en 2022.</p><p> Deux épopées achevées en finale, l’une heureuse (contre la Croatie 4-2), l’autre terriblement amère contre l’Argentine (3-3 a.p, 2-4 t.a.b). Et ce, malgré un triplé de Mbappé, deuxième joueur de l’histoire à signer telle performance en finale d’un Mondial, après l’Anglais <strong>Geoff Hurst</strong> lors de la Coupe du monde 1966 (face à l’Allemagne de l'Ouest, 4-2 a.p).
+                    </p>  </div>
             </div>
         </div>
     );

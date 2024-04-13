@@ -19,6 +19,11 @@ h2 {
   font-family: "Poppins", sans-serif;
 }
 
+h3 {
+  color:#7f00ff;
+  font-family: "Poppins", sans-serif;
+}
+
 .container-navbar {
   display: flex;
   flex-direction: row;
@@ -111,13 +116,22 @@ main {
   text-align: center;
 }
 
-
-
 table {
   margin: 0 auto;
   max-width: 95%;
   border-collapse: collapse;
   margin-bottom: 80px;
+}
+
+table a,
+table a:visited {
+  text-decoration: none !important;
+  color: #010101;
+}
+
+table a:hover{
+  color:#7f00ff;
+
 }
 
 th,
@@ -179,17 +193,9 @@ img[alt="Miroslav Klose"] {
   margin-left: 20px;
 }
 
-.text-klose {
-  overflow: hidden;
-}
-
-table a,
-table a:visited {
-  text-decoration: none !important;
-  color: #010101;
-}
-
-table a:hover{
-  color:#7f00ff;
-
+img[alt="Kylian Mbappé"] {
+  width: 340px;
+  float: left;
+  margin-top: -10px;
+  margin-right: 20px;
 }
