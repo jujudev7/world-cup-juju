@@ -24,7 +24,7 @@ const Navbar = () => {
     },
     { path: '/equipes', label: 'Équipes' },
     { path: '/joueurs', label: 'Joueurs' },
-    { path: '/actualites', label: 'Actualités' },
+    // { path: '/actualites', label: 'Actualités' },
     { path: '/reglementation', label: 'Réglementation' },
     { path: '/xxxxxxxxx', label: 'Xxxxxxxxxx' },
     { path: '/xxxxxxxxx', label: 'Xxxxxxxxxx' },

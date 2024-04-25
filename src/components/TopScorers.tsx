@@ -4,6 +4,7 @@ import countryCodes from '../data/countries-codes.json';
 import ReactCountryFlag from "react-country-flag";
 import imgKlose from '/assets/images/players/klose-miroslav.png';
 import imgMbappe from '/assets/images/players/mbappe-kylian.png';
+
 const WorldCupTopScorers = () => {
     return (
         <div>

@@ -1,4 +1,4 @@
-// Palmares.jsx
+// Palmares.tsx
 import React from 'react';
 import palmaresData from '../data/palmares-world-cup.json';
 import countryCodes from '../data/countries-codes.json';

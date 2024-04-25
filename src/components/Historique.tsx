@@ -1,4 +1,4 @@
-// Historique.jsx
+// Historique.tsx
 import React from 'react';
 
 function Historique() {
